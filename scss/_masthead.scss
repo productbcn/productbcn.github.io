@@ -32,9 +32,12 @@ header.masthead {
       font-size: 1.15rem;
     }
   }
+
+  height: 100vh;
+  min-height: 650px;
+
   @media (min-width: 992px) {
-    height: 100vh;
-    min-height: 650px;
+    
     padding-top: 0;
     padding-bottom: 0;
     h1 {

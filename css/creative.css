@@ -143,7 +143,9 @@ header.masthead {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  height: 100vh;
+  min-height: 650px; }
   header.masthead hr {
     margin-top: 30px;
     margin-bottom: 30px; }
@@ -156,8 +158,6 @@ header.masthead {
       font-size: 1.15rem; } }
   @media (min-width: 992px) {
     header.masthead {
-      height: 100vh;
-      min-height: 650px;
       padding-top: 0;
       padding-bottom: 0; }
       header.masthead h1 {
